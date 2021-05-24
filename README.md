@@ -9,10 +9,19 @@ The dynamic site provides users with data related to UFO sightings from across t
 ## Results
 "Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation."
 
+Searching through the UFO sighting data in the dynamic site's table is very simple. Search criteria can be entered into the input boxes on the bottom left of the page, as seen in the image below. Example input data is provided in light gray text.
 
+![Blank_Filter](https://github.com/tysonseang/UFOs/blob/main/static/images/Example_1.png)
+
+In these boxes, filtering criteria can be entered for any of the availble options. As criteria is added, the data in the table will update to reflect the user-inputted searches. Three examples are provided below showcasing searches by date; date and state; and date, state, and UFO shape. 
+
+![1_Filter](https://github.com/tysonseang/UFOs/blob/main/static/images/Example_2.png)
+
+![2_Filters](https://github.com/tysonseang/UFOs/blob/main/static/images/Example_3.png)
+
+1[3_Filters](https://github.com/tysonseang/UFOs/blob/main/static/images/Example_4.png)
 
 
 # Summary
 
 While the code modifications that were added allow for more detailed analysis through additional filtering components, there are some drawbacks to this new design. In this project, the filter button was removed. Data is filtered based on user input and executed following a Mouse click outside of the text box or following an Enter/Return keyboard selection, but this might not immediately be clear to the end user. Buttons often serve as a helpful call-to-action for end users, prompting them to enteract with the site in a desired way. I suggest re-adding a Search or Filter button below the various filter input boxes to make the site more user-friendly. Additionally, I would suggest a button color that sharply contrasts from the site's dark gray background. 
-
